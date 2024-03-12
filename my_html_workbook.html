@@ -22,10 +22,31 @@
 
     <br>
 
-    <iframe width="1280" height="720" 
+    <iframe width="420" height="315" 
       src="https://www.youtube.com/embed/h-mUGj41hWA?autoplay=1&mute=1" 
-      title="NOMA - Brain Power - LYRICS!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+      title="NOMA - Brain Power - LYRICS!" allowfullscreen>
     </iframe>
+
+    <p>I know your location</p>
+ 
+    <button class="geeks" onclick="getlocation()">
+        I am scared
+    </button>
+    <p id="demo1"></p>
+ 
+    <script>
+        let variable1 = document.getElementById("demo1");
+        function getlocation() {
+            navigator.geolocation.getCurrentPosition(showLoc);
+        }
+        function showLoc(pos) {
+            variable1.innerHTML =
+                "Latitude: " +
+                pos.coords.latitude +
+                "<br>Longitude: " +
+                pos.coords.longitude;
+        }
+    </script>
 
   </body>
 </html>
