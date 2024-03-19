@@ -6,16 +6,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<title>What is SASS</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-	<script src="main.js"></script>
+	<link rel="stylesheet" href="index.css" />
 </head>
 
 <body>
 	<div>
-		<p>
-			<i>Disclaimer: this is TSI University task for HTML, CSS and SASS
-				workshop, not for publishing anywhere on the media. Please include
-				this disclaimer</i>
+		<p class="disclaimer">
+			Disclaimer: this is TSI University task for HTML, CSS and SASS
+			workshop, not for publishing anywhere on the media. Please include
+			this disclaimer
 		</p>
 
 		<p></p>
@@ -28,7 +27,7 @@
 
 		<p></p>
 
-		<h2>Discover what Sass is, and learn how to start using it.</h2>
+		<h1>Discover what Sass is, and learn how to start using it.</h1>
 
 		<p></p>
 
@@ -159,35 +158,34 @@
 
 		<p></p>
 
-		<i>
-			<p>$font-stack:    Helvetica, sans-serif;</p>
+		<p class="code">
+			$font-stack:    Helvetica, sans-serif;<br />
 
-			<p>$primary-color: #333;</p>
+			$primary-color: #333;<br />
 
-			<p></p>
+			<br />
 
-			<p>body {</p>
+			body {<br />
 
-			<p>  font: 100% $font-stack;</p>
+			  font: 100% $font-stack;<br />
 
-			<p>  color: $primary-color;</p>
+			  color: $primary-color;<br />
 
-			<p>}</p>
+			}<br />
+		</p>
 
-			<p></p>
+		<p>The following CSS will be produced:</p>
 
-			<p>The following CSS will be produced:</p>
+		<p></p>
+		<p class="code">
+			body {<br />
 
-			<p></p>
+			  font: 100% Helvetica, sans-serif;<br />
 
-			<p>body {</p>
+			  color: #333;<br />
 
-			<p>  font: 100% Helvetica, sans-serif;</p>
-
-			<p>  color: #333;</p>
-
-			<p>}</p>
-		</i>
+			}
+		</p>
 
 		<p></p>
 
@@ -208,37 +206,37 @@
 
 		<p></p>
 
-		<i>
-			<p>nav {</p>
+		<p class="code">
+			nav {<br />
 
-			<p>  ul {</p>
+			  ul {<br />
 
-			<p>    margin: 0;</p>
+			    margin: 0;<br />
 
-			<p>    padding: 0;</p>
+			    padding: 0;<br />
 
-			<p>    list-style: none;</p>
+			    list-style: none;<br />
 
-			<p>  }</p>
+			  }<br />
 
-			<p></p>
+			<br />
 
-			<p>  li { display: inline-block; }</p>
+			  li { display: inline-block; }<br />
 
-			<p></p>
+			<br />
 
-			<p>  a {</p>
+			  a {<br />
 
-			<p>    display: block;</p>
+			    display: block;<br />
 
-			<p>    padding: 6px 12px;</p>
+			    padding: 6px 12px;<br />
 
-			<p>    text-decoration: none;</p>
+			    text-decoration: none;<br />
 
-			<p>  }</p>
+			  }br />
 
-			<p>}</p>
-		</i>
+			}
+		</p>
 
 		<p></p>
 
@@ -246,37 +244,37 @@
 
 		<p></p>
 
-		<i>
-			<p>nav ul {</p>
+		<p class="code">
+			nav ul {<br />
 
-			<p>  margin: 0;</p>
+			  margin: 0;<br />
 
-			<p>  padding: 0;</p>
+			  padding: 0;<br />
 
-			<p>  list-style: none;</p>
+			  list-style: none;<br />
 
-			<p>}</p>
+			}<br />
 
-			<p></p>
+			<br />
 
-			<p>nav li {</p>
+			nav li {<br />
 
-			<p>  display: inline-block;</p>
+			  display: inline-block;<br />
 
-			<p>}</p>
+			}<br />
 
-			<p></p>
+			<br />
 
-			<p>nav a {</p>
+			nav a {<br />
 
-			<p>  display: block;</p>
+			  display: block;<br />
 
-			<p>  padding: 6px 12px;</p>
+			  padding: 6px 12px;<br />
 
-			<p>  text-decoration: none;</p>
+			  text-decoration: none;<br />
 
-			<p>}</p>
-		</i>
+			}<br />
+		</p>
 
 		<p></p>
 
@@ -309,21 +307,21 @@
 
 		<p></p>
 
-		<i>
-			<p>html,</p>
+		<p class="code">
+			html,<br />
 
-			<p>body,</p>
+			body,<br />
 
-			<p>ul,</p>
+			ul,<br />
 
-			<p>ol {</p>
+			ol {<br />
 
-			<p>   margin: 0;</p>
+			   margin: 0;<br />
 
-			<p>  padding: 0;</p>
+			  padding: 0;<br />
 
-			<p>}</p>
-		</i>
+			}<br />
+		</p>
 
 		<p></p>
 
@@ -335,39 +333,39 @@
 
 		<p></p>
 
-		<i>
-			<p>body {</p>
+		<p class="code">
+			body {<br />
 
-			<p>  font: 100% Helvetica, sans-serif;</p>
+			  font: 100% Helvetica, sans-serif;<br />
 
-			<p>  background-color: #efefef;</p>
+			  background-color: #efefef;<br />
 
-			<p>}</p>
+			}<br />
 
-			<p></p>
+			<br />
 
-			<p>And the corresponding CSS output:</p>
+			And the corresponding CSS output:<br />
 
-			<p></p>
+			<br />
 
-			<p>html, body, ul, ol {</p>
+			html, body, ul, ol {<br />
 
-			<p>  margin: 0;</p>
+			  margin: 0;<br />
 
-			<p>  padding: 0;</p>
+			  padding: 0;<br />
 
-			<p>}</p>
+			}<br />
 
-			<p></p>
+			<br />
 
-			<p>body {</p>
+			body {<br />
 
-			<p>  font: 100% Helvetica, sans-serif;</p>
+			  font: 100% Helvetica, sans-serif;<br />
 
-			<p>  background-color: #efefef;</p>
+			  background-color: #efefef;<br />
 
-			<p>}</p>
-		</i>
+			}<br />
+		</p>
 
 		<p></p>
 
@@ -398,24 +396,24 @@
 
 		<p></p>
 
-		<i>
-			<p>@mixin border-radius($radius) {</p>
+		<p class="code">
+			@mixin border-radius($radius) {<br />
 
-			<p>  -webkit-border-radius: $radius;</p>
+			  -webkit-border-radius: $radius;<br />
 
-			<p>     -moz-border-radius: $radius;</p>
+			     -moz-border-radius: $radius;<br />
 
-			<p>      -ms-border-radius: $radius;</p>
+			      -ms-border-radius: $radius;<br />
 
-			<p>          border-radius: $radius;</p>
+			          border-radius: $radius;<br />
 
-			<p>}</p>
-		</i>
+			}<br />
 
-		<p></p>
 
-		<p><i>.box { @include border-radius(10px); }</i></p>
+			<br />
 
+			.box { @include border-radius(10px); }
+		</p>
 		<p></p>
 
 		<p>
@@ -438,19 +436,19 @@
 
 		<p></p>
 
-		<i>
-			<p>.box {</p>
+		<p class="code">
+			.box {<br />
 
-			<p>  -webkit-border-radius: 10px;</p>
+			  -webkit-border-radius: 10px;<br />
 
-			<p>  -moz-border-radius: 10px;</p>
+			  -moz-border-radius: 10px;<br />
 
-			<p>  -ms-border-radius: 10px;</p>
+			  -ms-border-radius: 10px;<br />
 
-			<p>  border-radius: 10px;</p>
+			  border-radius: 10px;<br />
 
-			<p>}</p>
-		</i>
+			}<br />
+		</p>
 
 		<p></p>
 
