@@ -1,0 +1,19 @@
+body {
+    color: #1E1926;
+    background-color: #B6A2D7;
+  }
+  
+  h1 {
+    color: #0000FF;
+  }
+  
+  p.code {
+    color: #B6A2D7;
+    font-style: italic;
+    background-color: #362B48;
+  }
+  
+  p.disclaimer {
+    color: #362B48;
+    font-style: italic;
+  }
